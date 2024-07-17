@@ -1,0 +1,21 @@
+.photo_hall{
+    margin: 100px auto;
+}
+.inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.inner img{
+    width: 25%;
+    min-width: 250px;
+    height: 220px;
+    object-fit: cover;
+}
+@media (max-width: 715px) {
+    .inner img{
+        width: 100%;
+    }
+}

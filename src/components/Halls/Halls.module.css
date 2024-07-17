@@ -1,0 +1,62 @@
+.halls {
+}
+
+.about__wrapper {
+    text-align: center;
+}
+
+.title {
+}
+
+.title span {
+    color: #f2f213;
+}
+
+.subtitle {
+    max-width: 560px;
+    margin: 20px auto;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 50px;
+}
+.card{
+    min-width: 300px;
+    width: 30%;
+    box-shadow: 10px 10px 20px 5px #c0b9b9;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.card img{
+    border-radius: 8px 8px 0 0;
+    width: 100%;
+    height: 330px;
+    object-fit: cover;
+}
+
+.card h3{
+    margin: 10px 0;
+    font-size: 25px;
+}
+
+.card button{
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 0;
+    color: #fff;
+    background: #6b6868;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.card button:hover{
+    background: #000000;
+}
+
+.card div{
+    padding: 10px;
+}
+

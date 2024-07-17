@@ -1,0 +1,155 @@
+.hallPayment {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 10;
+    margin: 0 auto;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    overflow-y: auto;
+}
+
+.hallPayment::after {
+    content: '';
+    background: #000000;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    opacity: .5;
+    z-index: -1;
+}
+
+.card {
+    width: 620px;
+    height: 1680px;
+    background: #fff;
+    position: relative;
+}
+
+.card img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.card_content {
+    padding: 40px 60px;
+}
+
+.card_content p {
+    padding: 10px 0 20px;
+}
+
+.card_hall {
+    display: flex;
+    flex-direction: column;
+}
+
+.card_hall__item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.card_hall__img {
+    min-width: 120px;
+    height: 80px;
+}
+
+.card_hall__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card_hall__content p {
+    padding: 5px 0;
+}
+
+.card__close {
+    position: absolute;
+
+    top: 0;
+    right: 0;
+    z-index: 20;
+    cursor: pointer;
+}
+
+.card__close svg {
+    width: 50px;
+    height: 50px;
+    color: #ffffff;
+}
+
+.card_hall__item.active {
+    background-color: #6b6868;
+
+    color: #ffffff;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    padding: 0 50px;
+}
+
+.form_item {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.form_item select {
+    width: 100%;
+    padding: 20px 60px;
+    border-radius: 50px;
+    appearance: none;
+    outline: none;
+    border: 2px solid #6b6868;
+}
+
+.form_item input {
+    width: 100%;
+    padding: 20px 60px;
+    outline: none;
+    border-radius: 50px;
+    border: 2px solid #6b6868;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.button{
+    padding: 20px 40px;
+    border-radius: 50px;
+    border: 0;
+    background-color: #f2f213;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+@media (max-width: 550px) {
+    .card{
+        height: 1700px;
+    }
+}@media (max-width: 495px) {
+    .card{
+        height: 1850px;
+    }
+}

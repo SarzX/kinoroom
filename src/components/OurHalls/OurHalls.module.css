@@ -1,0 +1,31 @@
+.ourhalls{}
+.title{
+    text-align: center;
+    margin-top: 100px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+.card{
+    min-width: 360px;
+    width: 30%;
+}
+.title__wrapper{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.card p{
+    margin-top: 10px;
+}
+
+@media (max-width: 986px) {
+    .card{
+        min-width: 100%;
+    }
+}
