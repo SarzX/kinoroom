@@ -116,16 +116,14 @@ const HallPayment = () => {
 						<div className={styles.form_item}>
 							<div className={styles.form__title}>Выберите город:</div>
 							<select>
-								<option value='Брест'>
-									Большой Николопесковский переулок, 13
+								<option value='Москва'>
+								1-й Хорошёвский проезд, 12к1
 								</option>
-								<option value='Гомель'>Моховая улица, 11с12</option>
-								<option value='Минск'>улица Ильинка, 3/8с1</option>
-								<option value='Минск'>Малый Ивановский переулок, 2-4с15</option>
-								<option value='Минск'>улица Большая Якиманка, 17/2с2</option>
-								<option value='Минск'>Шереметьевская улица, 1к2</option>
-								<option value='Минск'>7-я Кожуховская улица, 9</option>
-								<option value='Минск'>2-й кожевнический переулок 7а</option>
+								<option value='Москва'>Беговая 1А</option>
+								<option value='Москва'>Люсиновская улица 64</option>
+								<option value='Москва'>Корабельная 15</option>
+								<option value='Москва'>ул. Малая Полянка, 2</option>
+
 							</select>
 						</div>
 						<div className={styles.form_item}>

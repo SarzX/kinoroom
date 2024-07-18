@@ -5,7 +5,19 @@
     align-items: center;
     justify-content: center;
 }
-
+.page-footer {
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+    text-align: center;
+  }
+  .page-footer.fixed-bottom {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+  }
 .wrapper {
     width: 100%;
     display: flex;
