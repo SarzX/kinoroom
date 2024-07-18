@@ -14,8 +14,8 @@ const Footer = () => {
 						</li>
 				
 					<li>
-					    <h2>WhatsUp: +79159391426</h2>
-						</li>
+					<h2><a href="https://api.whatsapp.com/send/?phone=79159391426&text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82%21+%EF%BF%BD+%D0%A5%D0%BE%D1%82%D0%B5%D0%BB%D0%BE%D1%81%D1%8C+%D0%B1%D1%8B+%D0%B7%D0%B0%D0%B1%D1%80%D0%BE%D0%BD%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C+%D0%B7%D0%B0%D0%BB+%D0%B2+%D0%B2%D0%B0%D1%88%D0%B5%D0%BC+%D0%B7%D0%B0%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B8&type=phone_number&app_absent=0">WhatsUp: +79159391426</a></h2>
+					</li>
 					
 					<li>
 						<h3>Адрес:</h3>
