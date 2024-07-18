@@ -5,6 +5,21 @@ import Halls from "./components/Halls/Halls.jsx";
 import OurHalls from "./components/OurHalls/OurHalls.jsx";
 import Packages from "./components/Packages/Packages.jsx";
 import PhotoHall from "./components/PhotoHall/PhotoHall.jsx";
+import React from 'react';
+import ErrorBoundary from './ErrorBoundary';
+import MyComponent from './MyComponent';
+
+function App() {
+  return (
+    <ErrorBoundary>
+      <div className="App">
+        <MyComponent />
+      </div>
+    </ErrorBoundary>
+  );
+}
+
+export default App;
 
 function App() {
 
